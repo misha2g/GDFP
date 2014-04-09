@@ -16,6 +16,8 @@ LICENSE
   s.platform = :ios
 
   s.source_files = 'GoogleAdMobAdsSdkiOS-6.8.0/*.h', 'GoogleAdMobAdsSdkiOS-6.8.0/Add-ons/DoubleClick/*.h'
+  s.support_files = 'GoogleAdMobAdsSdkiOS-6.8.0/libGoogleAdMobAds.a'
+
   s.preserve_paths = 'GoogleAdMobAdsSdkiOS-6.8.0'
 
   s.framework = %w{AdSupport AudioToolbox AVFoundation CoreGraphics CoreTelephony MessageUI StoreKit SystemConfiguration libGoogleAdMobAds.a}
